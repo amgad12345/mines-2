@@ -40,7 +40,7 @@ const resp = await axios
       _: '◻️',
       F: '🚩',
       '@': '🏳',
-      '*': '💥'
+      '*': '💥' 
     }
 
   let symbol = symbols[value] || value
