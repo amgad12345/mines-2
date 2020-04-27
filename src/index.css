@@ -11,16 +11,134 @@ body {
   min-height: 100%;
 }
 
-button {
-  height: 50px;
-  width: 50px;
-  background-color: slategray;
-  font-weight: bold;
+.board {
+border: 40px;
+
 }
 
-/* td {
-  height: 50px;
-  width: 50px;
-  background-color: slategray;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  font-size: 5rem;
+  border: 40px;
+  border-width: 50px;
+  border-color: black;
+}
+
+.Top-Container {
+  border: 1px solid;
+  border-top-color: rgb(197, 194, 194);
+  border-right-color: rgb(197, 194, 194);
+  border-bottom-color:rgb(197, 194, 194);
+  border-left-color:rgb(197, 194, 194);
+  background-color: rgb(197, 194, 194);
+  width: inherit;
+  vertical-align: middle;
+}
+
+
+.Top-Con {
+
+  background-color: rgb(197, 194, 194);
+}
+
+
+.Inner-Top-Container {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  border-top-color: #7B7B7B;;
+  border-right-color: #ffffff;
+  border-bottom-color:#ffffff;
+  border-left-color:#7B7B7B;
+
+}
+
+.Smiley-Container {
+  
+  height: 30px;
+  width: 30;
+ 
+}
+
+#Sad {
+  height: 30px;
+  width: 40;
+  display:none;
+}
+
+.count{
+  flex: wrap;
+  vertical-align: middle;
+  color: red;
+  background-color: black;
+  height: 28px;
+  
+  vertical-align: middle;
+  text-align: center;
+ 
+}
+.Button-Container {
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 4rem;
+
+}
+
+.Game-Container {
+  
+  
+  align-items: center;
+  border: 5px solid;
+  border-top-color: rgb(197, 194, 194);
+  border-right-color: rgb(197, 194, 194);
+  border-bottom-color:rgb(197, 194, 194);
+  border-left-color:rgb(197, 194, 194);
+  width: fit-content;
+  margin: 0;
+}
+
+button {
+  height: 25px;
+  width: 25px;
+  border-spacing: 0;
+  background-color: rgb(197, 194, 194);
   font-weight: bold;
-} */
+  font-size: 11px;
+  justify-content: center;
+  display: inline-flex;
+  margin: 0;
+  height: 50x;
+  border-top-color: #ffffff;
+  border-right-color: #7B7B7B;
+  border-bottom-color: #7B7B7B;
+  border-left-color: #ffffff;
+}
+
+.difficulty {
+  width: 133.2px;
+  height: 30px;
+}
+
+
+tr.box {
+  height: 50x;
+  width: 15px;
+  border-spacing: 0;
+}
+
+ td {
+  width: 15px;
+  border-spacing: 0;
+} 
+
+
+table {
+  border: 1px solid #124d77;
+  border-spacing: 0;
+}
